@@ -1,0 +1,8 @@
+@import './media.scss';
+ .uni-parent{
+    @include lg{
+        flex-direction: column;
+        width: 90%;
+        margin: auto;
+    }
+ }

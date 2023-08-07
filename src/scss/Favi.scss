@@ -1,0 +1,10 @@
+@import './media.scss';
+
+.favi-parent{
+    @include lg{
+        flex-direction: column;
+        width: 90%;
+        margin: auto;
+        
+    }
+}

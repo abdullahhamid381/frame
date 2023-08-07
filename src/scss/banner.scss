@@ -1,0 +1,13 @@
+@import url("http://fonts.cdnfonts.com/css/toruksc");
+@import "./variable.scss";
+@import "./media.scss";
+
+.banner-parent{
+.banner-grid{
+  @include lg{
+    flex-direction: column !important;
+    width: 90%;
+    margin: auto;
+  }
+}
+}
